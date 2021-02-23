@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box; // always add by default
+}
+
+// whenever there isn't a period, it references ALL 
+body{
+    margin: 0; // starts page off without any margin
+    background: #000000;  /* fallback for old browsers */
+    background: linear-gradient(to right bottom, #1c1c1c, #000000);
+    color: rgb(218, 218, 218);  
+    font-family: 'Montserrat';
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+a{
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+}
+
+ul{
+    list-style: none; //gets rid of bullet points
+    margin: 0;
+    padding: 0; //get rid of padding to start from beginning
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.logo{
+    font-weight: 800;
+}
+.title{
+    color: #454545;
+    font-weight: 700;
+}
+
+.hero-content{
+    margin: 20px;
+}
+.languages img{
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.avatar img{
+    width: 500px;
+    margin: 0 auto;
+}
+
+
