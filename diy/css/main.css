@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7,17 +7,12 @@
 body {
   margin: 0;
   background: #000000;
-  /* fallback for old browsers */
-  background: -webkit-gradient(linear, left top, right bottom, from(#1c1c1c), to(#000000));
-  background: linear-gradient(to right bottom, #1c1c1c, #000000);
   color: #dadada;
-  font-family: 'Montserrat';
-  background-repeat: none;
-  background-attachment: fixed;
+  font-family: 'Inter', sans-serif;
 }
 
 a {
-  color: #dadada;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -41,10 +36,6 @@ header {
   font-weight: 800;
 }
 
-.title {
-  color: #454545;
-  font-weight: 700;
-}
 
 .hero-content {
   margin: 20px;
@@ -60,4 +51,3 @@ header {
   width: 500px;
   margin: 0 auto;
 }
-/*# sourceMappingURL=main.css.map */
